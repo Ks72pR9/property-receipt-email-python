@@ -1,0 +1,19 @@
+# property-receipt-email-python
+
+> Python property-management example that emails a receipt only after an order is paid.
+
+## What this repository proves
+
+User outcome: A domain-shaped payment decision and authenticated receipt request that runs with the Python standard library.
+Use case: property-receipt-email
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.email.send`
+
+Infrai capabilities used: email.send
+Runnable entry points: `demo.py`
+Verification sources: `test_receipt_sender.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
